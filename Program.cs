@@ -11,7 +11,7 @@ namespace InterviewTask
         static void Main(string[] args)
         {
 
-            //Task 1
+            //Task 1 - Merge sorting
             Console.WriteLine("----------Task 1----------");
             int[] unsorted = { 3, 2, 6, 56, 23, 17, 18, 1, 5 };
             int[] sorted = InterviewTaskOne.MergeSort(unsorted);
@@ -24,7 +24,7 @@ namespace InterviewTask
 
             //End of Task 1
 
-            //Task 2
+            //Task 2 - Integer prime number checker
             Console.WriteLine("----------Task 2----------");
             int number = 4;
             bool test = InterviewTaskTwo.isPrime(number);
@@ -33,7 +33,7 @@ namespace InterviewTask
             Console.WriteLine("Press enter to continue on the next task...");
             Console.ReadLine();
 
-            //Task 3
+            //Task 3 - Convertor form 2D array to 1D
             Console.WriteLine("----------Task 3----------");
             int[,] arr2D = {
                     {1, 2},
